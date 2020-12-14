@@ -106,6 +106,11 @@ vertical-align:middle;
 
 * {
     text-decoration: none;
+    
+}
+
+main {
+    padding-top: 100px;
 }
 
 body {
@@ -114,6 +119,10 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: rgb(182, 177, 177);
     width: 100%;
     height: 100px; 
@@ -126,9 +135,13 @@ header .header-brand {
     color: #111;
     text-transform: uppercase;
     display: block;
-    margin: 0, auto;
+    margin: 0px, auto;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
+    background-image: url(img/ulaps.png);
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 header nav ul {
@@ -180,11 +193,11 @@ display: none;
                 color: #111; 
                 text-transform: uppercase;
                 line-height: 38px;
-                border: 1px solid #111;
                 float: right;
                 margin-right: 40px;
                 padding: 0 20px;
                 margin-top: 30px;
+                border: 1px solid #111;
 
             }
         }
@@ -242,32 +255,143 @@ display: none;
     text-align: center;
     text-transform: uppercase;
 }
-
 @media only screen and (min-width: 1000px) {
+
     .wrapper {
         width: 1000px;
         margin: 0 auto;
-        
     }
+
     .index-banner {
-        height: 700px;
-}
-     .index-links div{
+        height: 450px;
+    }
+    .index-banner h2 {
+        display: block;
+        width: 560px;
+        margin: 0 auto;
+
+    }
+
+    .index-links {
+      overflow: hidden;
+    }
+    .index-links div{
         margin: 20px 10px 0;
         height: 230px;
         background-color: #9088a1;
         float: left;
-} 
-
-    .index-boxlink-square {
-      width: calc(25% - 20px) !important;
     }
-
-    .index-boxlink-rectangle {
+    .index-boxlink-square{
+        background-image: url(img/ulaps1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: calc(25% - 20px) !important;
+        text-shadow: 2px 2px 8px#3d3c3c;
+    }
+    .index-boxlink-rectangle{
         width: calc(50% - 20px) !important;
-      }
-
+        background-image: url(img/ulaps1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        text-shadow: 2px 2px 8px#3d3c3c;
     }
+
+    .index-links div h3 {
+        line-height: 230px;
+    }
+        
+        }
+
+/*CASES*/
+
+
+.cases-links{
+    padding-top: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.cases-links .cases-link{
+    float: left;
+    width: 230px;
+    height: 230px;
+    background-color: #e3e3e3;
+    margin: 20px 10px 0;
+
+}
+
+.cases-links h2{
+    font-family: 'Langar', cursive;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111; 
+    text-transform: uppercase;
+}
+
+.cases-links .cases-link p {
+    font-family: 'Langar', cursive;
+    font-size: 26px;
+    font-weight: 500;
+    color: #111; 
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 45%;
+}
+
+.contact div{
+    font-family: 'Langar', cursive;
+    font-size: 26px;
+    background-color: #e3e3e3;
+    margin: 20px 10px 0;
+    text-align: center;
+    line-height: 50px;
+   
+}
+
+/*Header Cases - Languages Hover*/
+
+.header-cases:hover{
+    background: #03e9f4;
+    color: black;
+    box-shadow: 0 0 5px #03e9f4;
+    box-shadow: 0 0 52px #03e9f4;
+    box-shadow: 0 0 50px #03e9f4;
+    box-shadow: 0 0 200px #03e9f4;
+}
+  
+/*Portfolio Vid Styling*/
+
+.aboutulaps h2{
+    font-family: 'Langar', cursive;
+    font-size: 24px;
+    font-weight: 500;
+    color: #111; 
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0;
+}
+.aboutulaps h3{
+    font-family: 'Langar', cursive;
+    font-size: 24px;
+    font-weight: 500;
+    color: #111; 
+    text-transform: inherit;
+    text-align: left;
+    padding: 15px 0;
+}
+
+article p{
+    font-family: arial sans-serif;
+    font-size: 18px;
+    color: #111; 
+    text-transform: inherit;
+    text-align: left;
+    padding: 15px 0;
+    letter-spacing: 1px;
+}
+
+
+
 /*Footer*/
 
 footer 
@@ -300,10 +424,6 @@ footer ul li a{
 
 }
 
-.footer-links-main{
-
-}
-
 .footer-links-cases {
     display: none;
 }
@@ -319,3 +439,27 @@ footer ul li a{
     float: right;
     margin-bottom: 10px;
 }
+
+@media only screen and (min-width: 1000px) {
+
+    .footer-links-cases {
+        display: block;
+
+    }
+
+    footer ul {
+        width: fit-content;
+        float: left;
+        padding: 20px;
+        padding-right: 30px;
+        }
+
+    footer ul li p{
+        font-family: 'Nerko One', cursive;
+        font-size: 14px;
+        color: #fff; 
+        line-height: 40px;
+        }
+
+   
+    }

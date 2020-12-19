@@ -483,3 +483,30 @@ footer ul li a{
         height: 400px;
         width: 1000px;
     }
+
+    /*about page*/
+
+    .about-name {
+    font-family: 'Langar', cursive;
+    color: #e3e3e3;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px#3d3c3c;
+    }
+
+    .aboutmain p{
+        font-family: 'Acme', sans-serif;
+    }
+
+   .aboutwrapper img{
+       width: 400px;
+       height: 400px;
+       margin: 0 10px;
+   }
+
+/*Forms Section*/
+
+.form-control {
+    padding: 5px 5px;
+}

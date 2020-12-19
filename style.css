@@ -163,6 +163,18 @@ header nav ul li a{
     font-size: 16px;
     color: #111; 
     text-transform: uppercase;
+    padding: 0 20px;
+}
+
+header nav ul li a:hover{
+    background: #03e9f4;
+    color: black;
+    box-shadow: 0 0 5px #03e9f4;
+    box-shadow: 0 0 52px #03e9f4;
+    box-shadow: 0 0 50px #03e9f4;
+    box-shadow: 0 0 200px #03e9f4;
+    height: 15px;
+    width: 15px;
 }
 
 header .header-cases {
@@ -309,6 +321,10 @@ display: none;
     padding-top: 20px;
     overflow: hidden;
     margin-bottom: 20px;
+}
+
+.cases-links:hover{
+    border-bottom: #03e9f4;
 }
 
 .cases-links .cases-link{
@@ -462,4 +478,8 @@ footer ul li a{
         }
 
    
+    }
+    video {
+        height: 400px;
+        width: 1000px;
     }

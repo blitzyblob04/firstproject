@@ -315,6 +315,14 @@ display: none;
 
 /*CASES*/
 
+.index-links a h3:hover{
+    color: #03e9f4;
+    background-image: url(/img/ulaps.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 5px 5px 10px black;
+}
+
 
 .cases-links{
     padding-top: 20px;
@@ -417,6 +425,44 @@ footer
     margin-top: 20px;
     overflow: hidden;
 }
+
+.footer-links-main li a::after
+{
+   content: '';
+   display: block;
+   width: 0%;
+   height: 4px;
+   background: #03e9f4;
+   transition: width .3s;
+}
+
+.footer-links-main li a:hover::after
+{
+
+   width: 100%;
+   transition: width .3s;
+
+}
+
+.footer-links-cases li a::after
+{
+   content: '';
+   display: block;
+   width: 0%;
+   height: 4px;
+   background: #03e9f4;
+   transition: width .3s;
+}
+
+.footer-links-cases li a:hover::after
+{
+
+   width: 100%;
+   transition: width .3s;
+
+}
+
+
 
 footer ul {
     width: fit-content;

@@ -493,10 +493,12 @@ footer ul li a{
     line-height: 40px;
     font-weight: 100;
     text-shadow: 2px 2px 8px#3d3c3c;
+    margin-left: 10px;
     }
 
     .aboutmain p{
         font-family: 'Acme', sans-serif;
+        margin: 0 10px;
     }
 
    .aboutwrapper img{
@@ -509,4 +511,16 @@ footer ul li a{
 
 .form-control {
     padding: 5px 5px;
+}
+.cvlink{
+    color: white;
+    background-color: teal;
+    line-height: 5px;
+    width: 100px;
+    padding: 5px 5px;
+}
+
+.aboutwrapper {
+   display: grid;
+   grid-template-columns: 50% 50%;
 }

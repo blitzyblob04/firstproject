@@ -152,7 +152,6 @@ width: fit-content;
 
 header nav ul li {
     display: inline-block;
-    float: left;
     list-style: none;
     padding: 0 16px;
     
@@ -510,17 +509,31 @@ footer ul li a{
 /*Forms Section*/
 
 .form-control {
-    padding: 5px 5px;
+    padding: 15px 15px;
 }
 .cvlink{
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: teal;
     line-height: 5px;
     width: 100px;
-    padding: 5px 5px;
+    margin: 0 10px;
 }
 
-.aboutwrapper {
+/*main .aboutwrapper {
    display: grid;
    grid-template-columns: 50% 50%;
+} */
+
+.aboutmain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formcard {
+    background-color: #a8a8a8;
+    width: 400px;
+    height: 280px;
+    border-radius: 5px;
+    margin: 0 10px;
 }

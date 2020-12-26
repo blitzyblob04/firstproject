@@ -236,7 +236,7 @@ display: none;
     font-weight: 900;
     color: rgb(60, 10, 179); 
     text-align: center;
-    text-shadow: 2px 2px 8px#3d3c3c;
+    text-shadow: 5px 5px 13px#3d3c3c;
 }
 
 .index-banner h2 {
@@ -533,8 +533,8 @@ footer ul li a{
 
     .about-name {
     font-family: 'Langar', cursive;
-    color: #e3e3e3;
-    font-size: 22px;
+    color: #0f0e0e;
+    font-size: 30px;
     line-height: 40px;
     font-weight: 100;
     text-shadow: 2px 2px 8px#3d3c3c;
@@ -583,3 +583,84 @@ footer ul li a{
     border-radius: 5px;
     margin: 0 10px;
 }
+
+/* personal details section 2 styling */
+
+hr {
+    background-color: #03e9f4;
+    width: 100%;
+}
+
+.personal1{
+    font-family: 'Langar', cursive;
+    padding: 5px;
+    margin: 10px;
+    border-right: 6px #03e9f4;
+    font-size: 15px;
+    line-height: 40px;
+    background-color: #a8a8a8;
+    width: 400px;
+    height: 460px;
+    border: 5px solid #03e9f4;
+}
+.educ{
+    font-family: 'Langar', cursive;
+    padding: 5px;
+    margin: 10px;
+    border-right: 6px #03e9f4;
+    font-size: 15px;
+    line-height: 40px;
+    background-color: #a8a8a8;
+    width: 400px;
+    height: 460px;
+    border: 5px solid #03e9f4;
+}
+.myskills{
+    font-family: 'Langar', cursive;
+    padding: 5px;
+    margin: 10px;
+    border-right: 6px #03e9f4;
+    font-size: 15px;
+    line-height: 40px;
+    background-color: #a8a8a8;
+    width: 400px;
+    height: 460px;
+    border: 5px solid #03e9f4;
+}
+
+.overalldetails .personaldetails {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+
+.workex{
+    background-color: #9088a1;
+    font-family: 'Acme', sans-serif;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.workex p{
+    padding: 10px 20px;
+}
+
+.progex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.progex img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 50px 120px;
+}   
+

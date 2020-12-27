@@ -337,7 +337,7 @@ display: none;
 .cases-links .cases-link{
     float: left;
     width: 230px;
-    height: 230px;
+    height: 266px;
     background-color: #e3e3e3;
     margin: 20px 10px 0;
 
@@ -370,6 +370,12 @@ display: none;
     line-height: 50px;
    
 }
+
+.cases-link{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /*Header Cases - Languages Hover*/
 

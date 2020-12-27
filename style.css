@@ -664,3 +664,29 @@ hr {
     margin: 50px 120px;
 }   
 
+/*Gallery Styles*/
+
+.photogallery h3{
+font-size: 30px;
+padding: 10px;
+font-family: 'Acme', sans-serif;
+color: #a8a8a8;
+
+}
+
+.photogallery img{
+    width: 350px;
+    height: 300pxs;
+    padding: 15px 15px;
+    border: 5px solid #03e9f4;
+
+}
+
+.photogallery p{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 980px;
+    color: white;
+}
